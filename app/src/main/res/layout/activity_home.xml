@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="jsme.user.hotelmanagementforandroid.HomeActivity"
+    android:background="@drawable/blossoms"
+    android:id="@+id/Home">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBookings"
+        android:src="@drawable/ic_bookingicon9"
+        android:layout_marginTop="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/btnCustomers"
+        android:layout_alignStart="@+id/btnCustomers" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCustomers"
+        android:src="@drawable/ic_customersicon3"
+        android:layout_below="@+id/btnBookings"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRooms"
+        android:src="@drawable/ic_roomicon7"
+        android:layout_below="@+id/btnCustomers"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnServicesAndExtras"
+        android:src="@drawable/ic_servicesextrasicon5"
+        android:layout_below="@+id/btnRooms"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMyAccount"
+        android:src="@drawable/ic_myaccounticon6"
+        android:layout_below="@+id/btnServicesAndExtras"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLogout"
+        android:src="@drawable/ic_closeicon7"
+        android:layout_below="@+id/btnMyAccount"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

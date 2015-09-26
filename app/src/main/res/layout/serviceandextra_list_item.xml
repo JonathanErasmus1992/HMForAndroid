@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="12dp"
+        android:paddingTop="6dip"
+        android:textColor="#21bd01"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="S And E ID:"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/lblSAndEIDList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="12dp"
+        android:paddingTop="6dip"
+        android:textColor="#bd19a1"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="S And E ID:"
+        android:layout_marginLeft="58dp"
+        android:layout_marginStart="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView28"
+        android:layout_toEndOf="@+id/textView28" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="12dp"
+        android:paddingTop="6dip"
+        android:textColor="#21bd01"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="S And E Name:"
+        android:layout_below="@+id/textView28"
+        android:layout_alignLeft="@+id/textView28"
+        android:layout_alignStart="@+id/textView28" />
+
+    <TextView
+        android:id="@+id/lblSAndENameList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="12dp"
+        android:paddingTop="6dip"
+        android:textColor="#bd19a1"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="S And E Name:"
+        android:layout_alignTop="@+id/textView29"
+        android:layout_alignLeft="@+id/lblSAndEIDList"
+        android:layout_alignStart="@+id/lblSAndEIDList" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="12dp"
+        android:paddingTop="6dip"
+        android:textColor="#21bd01"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="S And E Price:"
+        android:layout_below="@+id/textView29"
+        android:layout_alignLeft="@+id/textView29"
+        android:layout_alignStart="@+id/textView29"
+        android:layout_marginBottom="25dp" />
+
+    <TextView
+        android:id="@+id/lblSAndEPriceList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="12dp"
+        android:paddingTop="6dip"
+        android:textColor="#bd19a1"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="S And E Price:"
+        android:layout_alignTop="@+id/textView30"
+        android:layout_alignLeft="@+id/lblSAndENameList"
+        android:layout_alignStart="@+id/lblSAndENameList" />
+
+</RelativeLayout>

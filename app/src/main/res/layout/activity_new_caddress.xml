@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="jsme.user.hotelmanagementforandroid.NewCAddressActivity"
+    android:background="@drawable/bacjground">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Physical Address:"
+        android:id="@+id/textView21"
+        android:textColor="#21bd01"
+        android:textSize="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCPhysicalAddress"
+        android:layout_below="@+id/textView21"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/white"
+        android:inputType="textMultiLine"
+        android:hint="Physical Address" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Postal Address:"
+        android:id="@+id/textView22"
+        android:textColor="#21bd01"
+        android:textSize="16dp"
+        android:layout_below="@+id/txtCPhysicalAddress"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCPostalAddress"
+        android:background="@color/white"
+        android:inputType="textMultiLine"
+        android:layout_below="@+id/textView22"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Postal Address" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Postal Code:"
+        android:id="@+id/textView23"
+        android:textColor="#21bd01"
+        android:textSize="16dp"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/txtCPostalAddress"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCPostalCode"
+        android:background="@color/white"
+        android:textColor="#050404"
+        android:layout_alignBottom="@+id/textView23"
+        android:layout_toRightOf="@+id/textView21"
+        android:layout_toEndOf="@+id/textView21"
+        android:hint="PostalCode" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCustomerContact"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/contactc"
+        android:layout_below="@+id/txtCPostalCode"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCancelNCustomer"
+        android:src="@drawable/cancelc"
+        android:layout_below="@+id/btnCustomerContact"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

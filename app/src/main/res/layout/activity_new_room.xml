@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="jsme.user.hotelmanagementforandroid.NewRoomActivity"
+    android:background="@drawable/bacjground">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Room Number:"
+        android:id="@+id/textView14"
+        android:textColor="#21bd01"
+        android:textSize="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtRoomNumber"
+        android:background="@color/white"
+        android:textColor="#050404"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView14"
+        android:layout_toEndOf="@+id/textView14"
+        android:layout_marginLeft="43dp"
+        android:hint="Number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Room Type:"
+        android:id="@+id/textView15"
+        android:textColor="#21bd01"
+        android:textSize="16dp"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/txtRoomNumber"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtRoomType"
+        android:background="@color/white"
+        android:textColor="#050404"
+        android:layout_alignTop="@+id/textView15"
+        android:layout_alignLeft="@+id/txtRoomNumber"
+        android:layout_alignStart="@+id/txtRoomNumber"
+        android:hint="Type" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Room View:"
+        android:id="@+id/textView16"
+        android:textColor="#21bd01"
+        android:textSize="16dp"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/txtRoomType"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtRoomView"
+        android:background="@color/white"
+        android:textColor="#050404"
+        android:layout_alignTop="@+id/textView16"
+        android:layout_alignLeft="@+id/txtRoomType"
+        android:layout_alignStart="@+id/txtRoomType"
+        android:hint="View" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Room Price:      R"
+        android:id="@+id/textView17"
+        android:textColor="#21bd01"
+        android:textSize="16dp"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/txtRoomView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtRoomPrice"
+        android:background="@color/white"
+        android:textColor="#050404"
+        android:layout_alignTop="@+id/textView17"
+        android:layout_alignLeft="@+id/txtRoomView"
+        android:layout_alignStart="@+id/txtRoomView"
+        android:hint="Price" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddNewRoom"
+        android:layout_marginTop="55dp"
+        android:src="@drawable/savenewroom"
+        android:layout_below="@+id/txtRoomPrice"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCancelNewRoom"
+        android:src="@drawable/cancelnewroom"
+        android:layout_below="@+id/btnAddNewRoom"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

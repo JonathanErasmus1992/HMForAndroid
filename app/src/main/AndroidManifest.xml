@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jsme.user.hotelmanagementforandroid" >
+
+    <uses-sdk
+        android:maxSdkVersion="22"
+        android:minSdkVersion="17" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/headlolauncher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ForgottenPasswordActivity"
+            android:label="@string/title_activity_forgotten_password"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".BookingsActivity"
+            android:label="@string/title_activity_bookings"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".CustomersActivity"
+            android:label="@string/title_activity_customers"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".RoomsActivity"
+            android:label="@string/title_activity_rooms"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MyAccountActivity"
+            android:label="@string/title_activity_my_account"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ServicesAndExtrasActivity"
+            android:label="@string/title_activity_services_and_extras"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SingleRoomActivity"
+            android:label="@string/title_activity_single_room"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".NewRoomActivity"
+            android:label="@string/title_activity_new_room"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".NewCustomerActivity"
+            android:label="@string/title_activity_new_customer"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".NewCAddressActivity"
+            android:label="@string/title_activity_new_caddress"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".NewCContactActivity"
+            android:label="@string/title_activity_new_ccontact"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SingleServiceAndExtraActivity"
+            android:label="@string/title_activity_single_service_and_extra"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".NewServiceAndExtraActivity"
+            android:label="@string/title_activity_new_service_and_extra"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

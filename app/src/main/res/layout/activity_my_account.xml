@@ -1,0 +1,160 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="jsme.user.hotelmanagementforandroid.MyAccountActivity"
+    android:background="@drawable/bacjground">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Email Address:"
+        android:id="@+id/textView9"
+        android:textColor="#21bd01"
+        android:textSize="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAccountEmailAddress"
+        android:layout_toRightOf="@+id/textView9"
+        android:layout_marginLeft="37dp"
+        android:layout_marginStart="37dp"
+        android:background="@color/white"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_alignTop="@+id/textView9"
+        android:enabled="false"
+        android:textColor="#030308"
+        android:editable="false"
+        android:inputType="none" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Password:"
+        android:id="@+id/textView10"
+        android:textColor="#21bd01"
+        android:textSize="16dp"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAccountPassword"
+        android:background="@color/white"
+        android:layout_below="@+id/textView9"
+        android:layout_alignLeft="@+id/txtAccountEmailAddress"
+        android:layout_alignStart="@+id/txtAccountEmailAddress"
+        android:password="true"
+        android:inputType="textPassword"
+        android:text="Password"
+        android:textColor="#020205" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Confirm Password:"
+        android:id="@+id/textView11"
+        android:textColor="#21bd01"
+        android:textSize="16dp"
+        android:layout_below="@+id/txtAccountPassword"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAccountCPassword"
+        android:background="@color/white"
+        android:password="true"
+        android:inputType="textPassword"
+        android:layout_alignTop="@+id/textView11"
+        android:layout_alignLeft="@+id/txtAccountPassword"
+        android:layout_alignStart="@+id/txtAccountPassword"
+        android:textColor="#020307"
+        android:text="Password" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Recovery Question:"
+        android:id="@+id/textView12"
+        android:textColor="#21bd01"
+        android:textSize="16dp"
+        android:layout_below="@+id/txtAccountCPassword"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAccountRecoveryQ"
+        android:background="@color/white"
+        android:enabled="false"
+        android:layout_alignTop="@+id/textView12"
+        android:layout_alignLeft="@+id/txtAccountCPassword"
+        android:layout_alignStart="@+id/txtAccountCPassword"
+        android:textColor="#020206"
+        android:inputType="none"
+        android:hint="Question Hidden" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Recovery Answer:"
+        android:id="@+id/textView13"
+        android:textColor="#21bd01"
+        android:textSize="16dp"
+        android:layout_below="@+id/txtAccountRecoveryQ"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAccountRecoveryA"
+        android:background="@color/white"
+        android:enabled="false"
+        android:layout_alignTop="@+id/textView13"
+        android:layout_alignLeft="@+id/txtAccountRecoveryQ"
+        android:layout_alignStart="@+id/txtAccountRecoveryQ"
+        android:textColor="#030304"
+        android:inputType="none"
+        android:hint="Answer Hidden" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnUpdateAccount"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/ic_myaccounticon63s"
+        android:layout_below="@+id/txtAccountRecoveryA"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDeactivateAccount"
+        android:src="@drawable/ic_myaccounticon633"
+        android:layout_below="@+id/btnUpdateAccount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+</RelativeLayout>
