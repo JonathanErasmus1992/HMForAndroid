@@ -57,9 +57,8 @@ public class LoginActivity extends AppCompatActivity {
 
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(),
-                        BookingsActivity.class);
+                        ForgottenPasswordActivity.class);
                 startActivity(i);
-                finish();
             }
         });
     }

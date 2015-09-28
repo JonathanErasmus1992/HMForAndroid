@@ -1,5 +1,22 @@
 <resources>
     <string name="app_name">Hotel Management For Android</string>
+    <string name="app_room">Rooms</string>
+    <string name="app_customers">Customers</string>
+    <string name="app_forgottenpassword">Forgotten Password</string>
+    <string name="app_homemenu">Home</string>
+    <string name="app_login">Login</string>
+    <string name="app_register">Register User</string>
+    <string name="app_myaccount">My Account</string>
+    <string name="app_address">Customer Address</string>
+    <string name="app_contact">Customer Contact</string>
+    <string name="app_regcustomer">Register New Customer</string>
+    <string name="app_servextra">Services And Extras</string>
+    <string name="app_singleroom">Room</string>
+    <string name="app_singleservextra">Service And Extra</string>
+    <string name="app_addroom">Room</string>
+    <string name="app_addservextra">Service And Extra</string>
+    <string name="app_addbooking">Booking</string>
+    <string name="app_booking">Bookings</string>
     <string name="hint_email_address">Email Address</string>
     <string name="hint_password">Password</string>
     <string name="hint_confirm_password">Confirm Password</string>
@@ -70,5 +87,6 @@
     <string name="title_activity_new_ccontact">NewCContactActivity</string>
     <string name="title_activity_single_service_and_extra">SingleServiceAndExtraActivity</string>
     <string name="title_activity_new_service_and_extra">NewServiceAndExtraActivity</string>
+    <string name="title_activity_new_booking">NewBookingActivity</string>
 
 </resources>

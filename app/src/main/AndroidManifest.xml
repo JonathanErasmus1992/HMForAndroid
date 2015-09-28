@@ -10,7 +10,7 @@
         android:anyDensity="true"
         android:largeScreens="true"
         android:normalScreens="true"
-        android:smallScreens="true" />
+        android:smallScreens="false" />
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -25,83 +25,88 @@
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".RegisterActivity"
-            android:label="@string/title_activity_register"
+            android:label="@string/app_register"
             android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".HomeActivity"
-            android:label="@string/title_activity_home"
+            android:label="@string/app_homemenu"
             android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".ForgottenPasswordActivity"
-            android:label="@string/title_activity_forgotten_password"
+            android:label="@string/app_forgottenpassword"
             android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".BookingsActivity"
-            android:label="@string/title_activity_bookings"
+            android:label="@string/app_booking"
             android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".CustomersActivity"
-            android:label="@string/title_activity_customers"
+            android:label="@string/app_customers"
             android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".RoomsActivity"
-            android:label="@string/title_activity_rooms"
+            android:label="@string/app_room"
             android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".MyAccountActivity"
-            android:label="@string/title_activity_my_account"
+            android:label="@string/app_myaccount"
             android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".ServicesAndExtrasActivity"
-            android:label="@string/title_activity_services_and_extras"
+            android:label="@string/app_servextra"
             android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".SingleRoomActivity"
-            android:label="@string/title_activity_single_room"
+            android:label="@string/app_singleroom"
             android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".NewRoomActivity"
-            android:label="@string/title_activity_new_room"
+            android:label="@string/app_addroom"
             android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".NewCustomerActivity"
-            android:label="@string/title_activity_new_customer"
+            android:label="@string/app_regcustomer"
             android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".NewCAddressActivity"
-            android:label="@string/title_activity_new_caddress"
+            android:label="@string/app_address"
             android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".NewCContactActivity"
-            android:label="@string/title_activity_new_ccontact"
+            android:label="@string/app_contact"
             android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".SingleServiceAndExtraActivity"
-            android:label="@string/title_activity_single_service_and_extra"
+            android:label="@string/app_singleservextra"
             android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".NewServiceAndExtraActivity"
-            android:label="@string/title_activity_new_service_and_extra"
-            android:screenOrientation="portrait">
+            android:label="@string/app_addservextra"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".NewBookingActivity"
+            android:label="@string/app_addbooking" >
         </activity>
     </application>
 
